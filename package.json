@@ -15,6 +15,9 @@
 		"lint:fix": "eslint . --fix",
 		"pack": "npm pack"
 	},
+	"publishConfig": {
+		"@aliyssium:registry": "https://npm.pkg.github.com/"
+	},
 	"repository": {
 		"url": "git://github.com/aliyssium/aliyssium-api-spec.git"
 	},
